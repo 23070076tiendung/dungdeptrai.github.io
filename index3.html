@@ -1,32 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Week 4 Lab exercise 2</title>
-</head>
-<body>
-    <table border="1" align="center" cellpadding="0" bordercolor="#000000">
-        <caption align="center"> Using tables</caption>
-        <tr>
-            <th> Employee name </th>
-            <th> Designation</th>
-            <th> Salary</th>
-        </tr>
-        <tr>
-            <td> John</td>
-            <td> Manager</td>
-            <td> 4000</td>
-        </tr>
-        <tr>
-            <td> David</td>
-            <td> Office</td>
-            <td> 2500</td>
-        </tr>
-        <tr>
-            <td> Graham</td>
-            <td> Executive</td>
-            <td> 3000</td>  </tr>
-        </table>     
-    </body>
-    </html>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Thông tin sinh viên </title>
+    <style type="text/css">
+      ProductDetails {
+        display: none;
+      }
+      Product img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        box-shadow: 5px 5px 10px #aaa;
+      }
+      .ProductName {
+        font-weight: bold;
+      }
+      .ProductPrice {
+        font-style: italic;
+      }
+      .ProductPrice:before {
+        content: " - ";
+      }
+      .Product {
+        text-align: center;
+        width: 150px;
+        margin: 0px 20px;
+        float: left;
+        cursor: pointer;
+      }
+      .product:hover .ProductDetails {
+        display: block;
+      }
+    </style></head>
+    <body>
+        <body> 
+            <div>
+             <div class="Product"> <img src="https://mtv.vn/uploads/2023/02/25/meo-gg.jpg" /> 
+            <div class="ProductDetails"> 
+                <span class="ProductName">Phạm Tiến Dũng </span> 
+                <span class="ProductPrice">23070076</span> 
+            </div> 
+        </div> 
+         </body> 
+         </html>
+</html>
